@@ -27,7 +27,7 @@ const REVEAL_CONTENT = [
   },
   {
     upper: [
-      "I studying administration but i prefer to work programation , and start studying outside of school",
+      "I studying administration but i prefer to work programation and start studying outside of school",
     ],
     lower: "yes it's weird but i like it",
   },
@@ -295,7 +295,7 @@ export default function AboutMe() {
           color: #fff;
           font-family: 'Montserrat', sans-serif;
           font-weight: 300;
-          font-size: 22px;
+          font-size: 15px;
           letter-spacing: 0.4px;
           text-transform: lowercase;
           padding-left: 22px;
