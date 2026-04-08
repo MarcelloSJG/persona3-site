@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import char1 from "./assets/char1.png";
 import char2 from "./assets/char2.png";
 import char3 from "./assets/char3.png";
-import bgVideo from './assets/main2.mp4'
+import bgVideo from "./assets/main1.mp4";
 import icon1 from "./assets/icon1.png";
 import icon2 from "./assets/icon2.png";
 import icon3 from "./assets/icon3.png";
@@ -16,20 +16,24 @@ const MAIN_IMAGES = [mainm, mainm2, mainf];
 
 const REVEAL_CONTENT = [
   {
-    upper: ["name Marcello Santiago", "age:16"],
-    lower: "major: high school in business administration ending in 2027",
+    upper: ["name moneybagg", "age:23"],
+    lower: "major: computer science",
   },
   {
     upper: [
-      " I love video games,study,animes and mangas ",
+      "Cleopatra lived closer to the Moon landing than to the building of the pyramids.",
+      "Vikings kept cats on ships for pest control (and vibes).",
+      "In medieval Europe, animals could be put on trial for crimes",
     ],
-    lower: "fun fact",
+    lower: "abbove is some history fun fact",
   },
   {
     upper: [
-      "   Im am studying Adiministrartion but i dont like too much i prefer programation and start studying outside of school",
+      "Oxford University founding is older than the Aztec Empire.",
+      "The shortest war in history lasted 38–45 minutes (Britain vs Zanzibar).",
+      "Humans have been writing for ~5,000 years",
     ],
-    lower: "yes it's wired",
+    lower: "yes it's a place holder",
   },
 ];
 
@@ -295,7 +299,7 @@ export default function AboutMe() {
           color: #fff;
           font-family: 'Montserrat', sans-serif;
           font-weight: 300;
-          font-size: 15px;
+          font-size: 22px;
           letter-spacing: 0.4px;
           text-transform: lowercase;
           padding-left: 22px;
@@ -530,7 +534,7 @@ export default function AboutMe() {
 
         .sc-stat-tag {
           font-family: 'Bebas Neue', sans-serif;
-          font-size: 6px;
+          font-size: 9px;
           letter-spacing: 1.5px;
           padding: 1px 4px;
           border-width: 1px;

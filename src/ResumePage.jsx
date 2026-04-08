@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const ITEMS = [
-  { id: "i", badge: "I", title: "EDUCATION", subtitle: "High School / Coursework", rank: 3 },
+  { id: "i", badge: "I", title: "EDUCATION", subtitle: "University / Coursework", rank: 3 },
   { id: "ii", badge: "II", title: "SKILLS", subtitle: "Frontend / Design / UI", rank: 4 },
-  { id: "iii", badge: "III", title: "PROJECTS", subtitle: "Featured Work in GitHub", rank: 5 },
+  { id: "iii", badge: "III", title: "PROJECTS", subtitle: "Featured Work", rank: 5 },
   { id: "iv", badge: "IV", title: "EXPERIENCE", subtitle: "Internships / Roles", rank: 2 },
 ];
 
