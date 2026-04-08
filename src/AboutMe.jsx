@@ -16,24 +16,20 @@ const MAIN_IMAGES = [mainm, mainm2, mainf];
 
 const REVEAL_CONTENT = [
   {
-    upper: ["name moneybagg", "age:23"],
-    lower: "major: computer science",
+    upper: ["name Marcello Santiago de jesus gonçalves", "age:16"],
+    lower: "major: high school in buiness administration ending in 2027",
   },
   {
     upper: [
-      "Cleopatra lived closer to the Moon landing than to the building of the pyramids.",
-      "Vikings kept cats on ships for pest control (and vibes).",
-      "In medieval Europe, animals could be put on trial for crimes",
+      "I love play games study(maths) and reed books",
     ],
-    lower: "abbove is some history fun fact",
+    lower: "my fav game is dead by daylight",
   },
   {
     upper: [
-      "Oxford University founding is older than the Aztec Empire.",
-      "The shortest war in history lasted 38–45 minutes (Britain vs Zanzibar).",
-      "Humans have been writing for ~5,000 years",
+      "I studying administration but i prefer to work programation , and start studying outside of school",
     ],
-    lower: "yes it's a place holder",
+    lower: "yes it's weird but i like it",
   },
 ];
 
