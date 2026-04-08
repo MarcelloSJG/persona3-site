@@ -8,12 +8,12 @@ import PageTransition from './PageTransition'
 import Socials from './Socials'
 import AboutMe from './AboutMe'
 import './App.css'
-
+import menuVideo from './assets/Mainn.mp4'
 function MenuScreen() {
   const navigate = useNavigate()
   return (
     <div id="menu-screen">
-      
+      <video src={menuVideo} autoPlay loop muted playsInline />
       <P3Menu onNavigate={(page) => navigate(`/${page}`)} />
     </div>
   )
